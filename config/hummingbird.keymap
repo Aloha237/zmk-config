@@ -98,7 +98,7 @@
                 &kp TAB     &kp Q     &kp W      &kp E          &kp R       &trans           &trans        &kp I     &trans    &trans
                &kp LSHFT    &kp A     &kp S      &kp D          &kp F       &trans           &kp J         &kp K     &kp L    &trans
                           &kp LALT   &kp ESC     &kp C                                       &trans        &trans    &trans
-                                                &kp LCTRL       &SPACE      &trans           &trans
+                                                &kp LCTRL     &kp SPACE     &trans           &trans
             >;
         };
     };
