@@ -92,7 +92,7 @@
         };
 
         sym_layer {
-            label = "Sym";
+            label = "SYM_L";
             bindings = <
                 &kp TAB    &kp Q      &kp W       &kp E           &kp R            &kp T          &trans          &kp I       &kp O     &kp RBRC
                 &kp LSHFT  &kp A      &kp S       &kp D           &kp F            &kp H          &kp J           &kp K       &kp L     &kp RSHFT
