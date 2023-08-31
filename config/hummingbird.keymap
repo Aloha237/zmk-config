@@ -67,7 +67,7 @@
              &kp Q         &kp W      &kp E       &kp R        &kp T          &kp H            &kp U          &kp I       &kp O      &kp P
              &hm LSHFT A   &kp S      &kp D       &kp F        &kp G          &kp N            &kp J          &kp K       &kp L      &hm RSHFT SLASH
                          &hm LGUI X   &kp C       &kp V                                        &kp M     &hm RALT COMMA   &hm RGUI DOT
-                                                  &lt NAV_L    &kp SPACE      &lt BKSP         &lt NUM_L 
+                                                  &lt NAV_L B   &kp SPACE      &kp BKSP         &lt NUM_L Y
             >;
         };
 
