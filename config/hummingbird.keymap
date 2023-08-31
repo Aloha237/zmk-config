@@ -55,7 +55,7 @@
         combo_sym {
             timeout-ms = <50>;
             key-positions = <26 29>;
-            bindings = <&tog Sym>;
+            bindings = <&tog SYM_L>;
         };
     };
 
