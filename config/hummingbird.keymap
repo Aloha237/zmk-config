@@ -94,7 +94,7 @@
         sym_layer {
             label = "SYM_L";
             bindings = <
-                &kp TAB    &kp Q      &kp W       &kp E           &kp R            &kp T          &trans          &kp I       &kp O     &kp RBRC
+                &kp TAB    &kp Q      &kp W       &kp E           &kp R            &kp T          &trans          &kp I       &kp O     &kp RBKT
                 &kp LSHFT  &kp A      &kp S       &kp D           &kp F            &kp H          &kp J           &kp K       &kp L     &kp RSHFT
                            &kp Z      &kp X       &kp C                                       &kp C_PLAY_PAUSE    &tog SYM_L   &kp RGUI
                                                   &lt NAV_L V     &kp SPACE       &kp SPACE      &lt NUM_L G
