@@ -64,10 +64,10 @@
 
         default_layer {
             bindings = <
-                &kp Q      &kp W      &kp E       &kp R        &kp T        &kp H            &kp U          &kp I       &kp O      &kp P
-             &hm LSHFT A   &kp S      &kp D       &kp F        &kp G        &kp N            &kp J          &kp K       &kp L      &hm RSHFT SLASH
-                         &hm LGUI X   &kp C       &kp V                                      &kp M     &hm RALT COMMA   &hm RGUI DOT
-                                              &lt NAV_L      &kp SPACE      &lt BKSP  &lt NUM_L 
+             &kp Q         &kp W      &kp E       &kp R        &kp T          &kp H            &kp U          &kp I       &kp O      &kp P
+             &hm LSHFT A   &kp S      &kp D       &kp F        &kp G          &kp N            &kp J          &kp K       &kp L      &hm RSHFT SLASH
+                         &hm LGUI X   &kp C       &kp V                                        &kp M     &hm RALT COMMA   &hm RGUI DOT
+                                                  &lt NAV_L    &kp SPACE      &lt BKSP         &lt NUM_L 
             >;
         };
 
@@ -84,20 +84,20 @@
         num_layer {
             label = "Num";
             bindings = <
-                &kp ESC    &trans   &C_VOL_UP     &trans       &trans             &trans       &trans         &trans      &trans     &trans
-                &trans     &trans   &C_VOL_DN     &trans       &trans             &trans       &trans         &trans      &trans     &kp EXCL
-                           &trans     &trans      &trans                                     &kp C_MUTE       &trans      &trans
-                                                  &trans       &trans             &trans       &trans
+                &kp ESC    &trans     &C_VOL_UP   &trans       &trans             &trans       &trans       &trans      &trans     &trans
+                &trans     &trans     &C_VOL_DN   &trans       &trans             &trans       &trans       &trans      &trans     &kp EXCL
+                           &trans     &trans      &trans                                       &trans       &trans      &trans
+                                                  &trans       &C_PP              &trans       &trans
             >;
         };
 
         sym_layer {
             label = "Sym";
             bindings = <
-                &kp TAB    &kp Q      &kp W       &kp E           &kp R         &kp T           &trans         &kp F3      &trans     &trans
-                &kp LSHFT  &kp A      &kp S       &kp D           &kp G         &trans          &trans         &trans      &trans     &kp RSHFT
-                           &kp ESC    &trans      &kp C                                         &trans         &kp RALT    &trans
-                                                  &kp NAV_L     &kp SPACE       &trans          &trans
+                &kp TAB    &kp Q      &kp W       &kp E           &kp R            &kp T          &trans          &kp I       &kp O     &kp RBRC
+                &kp LSHFT  &kp A      &kp S       &kp D           &kp F            &kp H          &kp J           &kp K       &kp L     &kp RSHFT
+                           &kp Z      &kp X       &kp C                                           &C_PP           &kp RALT    &kp RGUI
+                                                  &kp NAV_L       &kp SPACE        &kt DEF_L      &lt NUM_L
             >;
         };
     };
