@@ -12,5 +12,7 @@
 #     shield: reviung41
 #
 ---
+include:
 board: ["seeeduino_xiao"]
 shield: ["hummingbird"]
+snippet: studio-rpc-usb-uart
