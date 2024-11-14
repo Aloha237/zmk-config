@@ -15,4 +15,4 @@
 include:
 board: ["seeeduino_xiao"]
 shield: ["hummingbird"]
-snippet: studio-rpc-usb-uart
+snippet: [studio-rpc-usb-uart]
